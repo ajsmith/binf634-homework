@@ -19,15 +19,15 @@ $dna =~ s/\s*//g;
 for (my $i = 0; $i < length $dna; $i++) {
     $b = substr($dna, $i, 1);
     if ($b =~ /a/i) {
-        unshift(@complement, 't');
+        unshift(@complement, 'T');
     } elsif ($b =~ /c/i) {
-        unshift(@complement, 'g');
+        unshift(@complement, 'G');
     } elsif ($b =~ /g/i) {
-        unshift(@complement, 'c');
+        unshift(@complement, 'C');
     } elsif ($b =~ /t/i) {
-        unshift(@complement, 'a');
+        unshift(@complement, 'A');
     }
 }
 
-print 'Orig DNA: ', lc($dna), "\n";
+print 'Orig DNA: ', uc($dna), "\n";
 print 'Comp DNA: ', join('', @complement), "\n";
