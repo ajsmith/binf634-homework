@@ -4,7 +4,7 @@
 #
 # Print DNA to upper or lowercase using \U and \L.
 
-my $usage = "Usage: ex4.3.pl (upper|lower)";
+my $usage = "Usage: ex4.4.pl (upper|lower)";
 
 unless (scalar @ARGV >= 1) {
     print $usage;
