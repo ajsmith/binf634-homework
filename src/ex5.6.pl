@@ -1,5 +1,9 @@
 #!/usr/bin/env perl -w
 
+# Exercise 5.6
+#
+# Check if two DNA strings are complements of each other.
+
 use strict;
 
 sub complement {
