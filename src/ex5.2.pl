@@ -20,5 +20,6 @@ chomp($dna2 = <STDIN>);
 
 $dna1 .= $dna2;
 
+print "\n";
 print uc($dna1), "\n";
 print ' ' x ((length $dna1) - (length $dna2)), uc($dna2), "\n";
