@@ -2,7 +2,7 @@
 
 # Exercise 4.3
 #
-# Print DNA to upper or lowercase.
+# Print DNA to upper or lowercase using the tr function.
 
 my $usage = "Usage: ex4.3.pl (upper|lower)";
 
