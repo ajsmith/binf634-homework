@@ -4,7 +4,7 @@ use strict;
 
 sub complement {
     my ($dna) = @_;
-    my @comp;
+    my @comp = ();
     foreach (split('', $dna)) {
         if (/a/i) {
             unshift(@comp, 't');
@@ -19,7 +19,12 @@ sub complement {
     return join('', @comp);
 }
 
-chomp(my ($dna1, $dna2) = <STDIN>);
+unless (scalar @ARGV >= 2) {
+    print "Usage: ex5.6.pl <dna1> <dna2>\n";
+    exit 1;
+}
+
+my ($dna1, $dna2) = @ARGV;
 
 print 'DNA1: ', uc($dna1), "\n";
 print 'DNA2: ', uc($dna2), "\n";
