@@ -1,5 +1,11 @@
 #!/usr/bin/env perl -w
 
+# Exercise 5.4.
+#
+# This program reads a DNA string from STDIN and then prints out the
+# complement. This program is not allowed to use the s/// or tr
+# functions.
+
 use strict;
 
 my $dna;
