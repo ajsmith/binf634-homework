@@ -1,5 +1,7 @@
 #!/usr/bin/env perl -w
 
+# Exercise 5.2
+#
 # This program does the following:
 # 1. Prompt the user to enter two DNA strings.
 # 2. Concatenate DNA1 + DNA2
@@ -18,6 +20,5 @@ chomp($dna2 = <STDIN>);
 
 $dna1 .= $dna2;
 
-
-print $dna1, "\n";
-print ' ' x ((length $dna1) - (length $dna2)), $dna2, "\n";
+print uc($dna1), "\n";
+print ' ' x ((length $dna1) - (length $dna2)), uc($dna2), "\n";
