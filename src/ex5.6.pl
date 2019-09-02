@@ -11,13 +11,13 @@ sub complement {
     my @comp = ();
     foreach (split('', $dna)) {
         if (/a/i) {
-            unshift(@comp, 't');
+            unshift(@comp, 'T');
         } elsif (/c/i) {
-            unshift(@comp, 'g');
+            unshift(@comp, 'G');
         } elsif (/g/i) {
-            unshift(@comp, 'c');
+            unshift(@comp, 'C');
         } elsif (/t/i) {
-            unshift(@comp, 'a');
+            unshift(@comp, 'A');
         }
     }
     return join('', @comp);
@@ -33,7 +33,7 @@ my ($dna1, $dna2) = @ARGV;
 print 'DNA1: ', uc($dna1), "\n";
 print 'DNA2: ', uc($dna2), "\n";
 
-if ($dna1 eq complement($dna2)) {
+if (uc($dna1) eq complement($dna2)) {
     print "DNA1 and DNA2 are complementary strands!\n";
 } else {
     print "DNA1 and DNA2 are not complementary.\n";
