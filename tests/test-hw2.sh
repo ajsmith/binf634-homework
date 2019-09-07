@@ -14,7 +14,6 @@ perl ${prog_dir}/ex6.1.pl GAA TTC
 
 echo
 echo "Testing ex6.2.pl"
-perl ${prog_dir}/ex6.2.pl AGTC A
-perl ${prog_dir}/ex6.2.pl GTC A
-perl ${prog_dir}/ex6.2.pl A A
-perl ${prog_dir}/ex6.2.pl AAAAGGGTTC T
+perl ${prog_dir}/ex6.2.pl AGTC
+perl ${prog_dir}/ex6.2.pl GTC
+perl ${prog_dir}/ex6.2.pl AAAAGGGTTC
