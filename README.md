@@ -16,7 +16,10 @@ Just run the test scripts.
 
 ```{.bash}
 $ tests/test-hw1.sh
+$ tests/test-hw2.sh
 ```
+
+The test scripts also provide examples for running each solution.
 
 
 ## Source Code
