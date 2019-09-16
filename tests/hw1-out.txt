@@ -1,0 +1,37 @@
+
+Testing ex4.3.pl
+
+Lowercase: aattgcgc
+
+Uppercase: AATTGCGC
+
+Testing ex4.4.pl
+
+Lowercase: aattgcgc
+
+Uppercase: AATTGCGC
+
+Testing ex4.5.pl
+RNA: GAAUUC
+DNA: GAATTC
+RNA: AUUGGGCCCC
+DNA: GGGGCCCAAT
+
+Testing ex5.2.pl
+Enter DNA1: Enter DNA2: 
+AAAATTTT
+    TTTT
+
+Testing ex5.4.pl
+Orig DNA: GAATTC
+Comp DNA: GAATTC
+Orig DNA: AAGGTTTTCCCC
+Comp DNA: GGGGAAAACCTT
+
+Testing ex5.6.pl
+DNA1: GAATTC
+DNA2: GAATTC
+DNA1 and DNA2 are complementary strands!
+DNA1: GC
+DNA2: AT
+DNA1 and DNA2 are not complementary.

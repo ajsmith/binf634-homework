@@ -1,0 +1,10 @@
+Testing ex6.1.pl
+GAATTC
+
+Testing ex6.2.pl
+DNA: AGTC
+A:25% G:25% T:25% C:25%
+DNA: GTC
+A:0% G:33% T:33% C:33%
+DNA: AAAAGGGTTC
+A:40% G:30% T:20% C:10%
