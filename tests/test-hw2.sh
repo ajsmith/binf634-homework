@@ -7,7 +7,7 @@ set -e
 #   - ex6.2.pl
 
 test_dir=$(dirname $0)
-prog_dir=${test_dir}/../src
+prog_dir=${test_dir}/../homework
 
 echo "Testing ex6.1.pl"
 perl ${prog_dir}/ex6.1.pl GAA TTC

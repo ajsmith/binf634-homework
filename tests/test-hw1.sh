@@ -10,7 +10,7 @@ set -e
 # 6. ex5.6.pl
 
 test_dir=$(dirname $0)
-prog_dir=${test_dir}/../src
+prog_dir=${test_dir}/../homework
 
 echo
 echo "Testing ex4.3.pl"
