@@ -17,6 +17,7 @@ Just run the test scripts.
 ```{.bash}
 $ tests/test-hw1.sh
 $ tests/test-hw2.sh
+$ tests/test-hw3.sh
 ```
 
 The test scripts also provide examples for running each solution.
