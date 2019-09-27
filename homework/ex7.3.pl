@@ -8,6 +8,7 @@ sub generate_seed {
     return (time|$$);
 }
 
+# Swap two elements in an array
 sub array_swap {
     my ($aref, $i, $j) = @_;
     my $tmp = $$aref[$i];
@@ -15,9 +16,9 @@ sub array_swap {
     $$aref[$j] = $tmp;
 }
 
+# Shuffle an array
 sub shuffle {
     my @deck = @_;
-    my ($j, $tmp);
     for (my $i = 0; $i < scalar(@deck); $i++) {
         array_swap(\@deck, $i, int(rand(@deck)));
     }
