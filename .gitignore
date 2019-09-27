@@ -1,2 +1,8 @@
 # Emacs backup files
 *~
+
+# Archive files
+*.tar
+*.tar.gz
+*.tgz
+*.zip
