@@ -1,6 +1,8 @@
-# BINF634 Fall 2019 Solka
+# Lab 1 - BINF634 Fall 2019 Solka
 
-# Lab 1
+Alexander Smith
+
+Oct 3, 2019
 
 ## 1 (10 pts)
 
