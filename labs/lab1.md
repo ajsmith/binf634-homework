@@ -4,13 +4,13 @@
 
 ## 1 (10 pts)
 
-| Consider the AvaII restriction site, which can have two different
-| sequences:
-|
-|     GGACC and GGTCC.
-|
-| Write a regular expression that will recognize this by writing our
-| alternatives inside of parenthesis separated by a vertical bar.
+> Consider the AvaII restriction site, which can have two different
+> sequences:
+>
+>     GGACC and GGTCC.
+>
+> Write a regular expression that will recognize this by writing our
+> alternatives inside of parenthesis separated by a vertical bar.
 
 
 ```
@@ -20,10 +20,10 @@
 
 ## 2 (10 pts)
 
-| The BisI restriction enzyme cuts at an even wider range of motifs –
-| the pattern is GCNGC, where N represents any base. Write a regular
-| expression that will recognize this using the square bracket
-| construct.
+> The BisI restriction enzyme cuts at an even wider range of motifs –
+> the pattern is GCNGC, where N represents any base. Write a regular
+> expression that will recognize this using the square bracket
+> construct.
 
 
 ```
@@ -33,19 +33,19 @@
 
 ## 3 (10 pts)
 
-| Here is a a complex pattern to identify full-length eukaryotic
-| messenger RNA sequences:
-|
-|     ^AUG[AUGC]{30,1000}A{5,10}$
-|
-| Reading this pattern from left to right verbally say what sort of
-| sequence it will match (5 pts)
+> Here is a a complex pattern to identify full-length eukaryotic
+> messenger RNA sequences:
+>
+>     ^AUG[AUGC]{30,1000}A{5,10}$
+>
+> Reading this pattern from left to right verbally say what sort of
+> sequence it will match (5 pts)
 
 This matches the start of a line (^), followed by AUG, followed by
 30-1000 of any of the characters AUGC (in any combination), followed
 by 5-10 A's, followed by the end of the line ($).
 
-| Given an example of a pattern it will match (5 pts)
+> Given an example of a pattern it will match (5 pts)
 
 ```
 AUGGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCAAAAA
@@ -54,8 +54,8 @@ AUGGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCAAAAA
 
 ## 4 (10 pts)
 
-| Given the string “Homo sapiens” write a regular expression to match
-| and store the genus part and the species part.
+> Given the string “Homo sapiens” write a regular expression to match
+> and store the genus part and the species part.
 
 ```{perl}
 my ($genus, $species) = ("Homo sapiens" =~ /^\s*(\w+)\s+(\w+)\s*$/);
@@ -64,7 +64,7 @@ my ($genus, $species) = ("Homo sapiens" =~ /^\s*(\w+)\s+(\w+)\s*$/);
 
 ## 5 (20 pts)
 
-| Consider the following code snippet
+> Consider the following code snippet
 
 ```{perl}
 #!/usr/bin/perl
@@ -83,9 +83,9 @@ foreach my $val (@values) {
 exit 0;
 ```
 
-| Consider the dna string "ACTNGCATRGCTACGTYACGATSCGAWTCG". Modify the
-| code above so that it splits the DNA string wherever we see a base
-| that isn’t A, T, G or C.
+> Consider the dna string "ACTNGCATRGCTACGTYACGATSCGAWTCG". Modify the
+> code above so that it splits the DNA string wherever we see a base
+> that isn’t A, T, G or C.
 
 ```{perl}
 #!/usr/bin/perl
@@ -105,7 +105,7 @@ exit 0;
 
 ## 6 (20 pts)
 
-| Consider the following made up list of gene accession names
+> Consider the following made up list of gene accession names
 
 ```{python}
 accessions = [
@@ -113,8 +113,8 @@ accessions = [
     '45da', 'de37dp']
 ```
 
-| (a) Write a program that will identify the accession names that end
-| with d followed by either a, r, or p
+> (a) Write a program that will identify the accession names that end
+> with d followed by either a, r, or p
 
 ```{perl}
 #!/usr/bin/env perl
@@ -129,8 +129,8 @@ foreach (@accessions) {
 }
 ```
 
-| (b) Write a program that will identify the accession names that
-| contains 3 or more digits in a row.
+> (b) Write a program that will identify the accession names that
+> contains 3 or more digits in a row.
 
 ```{perl}
 #!/usr/bin/env perl
@@ -148,10 +148,10 @@ foreach (@accessions) {
 
 ## 7 (20 pts)
 
-| Return to the gene accession names of problem 6.
-|
-| (a) Write a program that will identify the accession names that
-| contains the number 5.
+> Return to the gene accession names of problem 6.
+>
+> (a) Write a program that will identify the accession names that
+> contains the number 5.
 
 ```{perl}
 #!/usr/bin/env perl
@@ -166,7 +166,7 @@ foreach (@accessions) {
 }
 ```
 
-| (b) Starts with x or y.
+> (b) Starts with x or y.
 
 ```{perl}
 #!/usr/bin/env perl
