@@ -7,7 +7,7 @@
 > Consider the AvaII restriction site, which can have two different
 > sequences:
 >
->     GGACC and GGTCC.
+>     GGACC and GGTCC
 >
 > Write a regular expression that will recognize this by writing our
 > alternatives inside of parenthesis separated by a vertical bar.
