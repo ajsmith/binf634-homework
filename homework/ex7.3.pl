@@ -14,7 +14,8 @@ sub generate_seed {
 # Swap two elements in an array
 sub array_swap {
     my ($aref, $i, $j) = @_;
-    print "Swapping $i\t$j\n";
+    my $b = ($i <= $j);
+    print "Swapping $i\t$j\t$b\n";
     my $tmp = $$aref[$i];
     $$aref[$i] = $$aref[$j];
     $$aref[$j] = $tmp;
