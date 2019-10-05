@@ -44,8 +44,8 @@ Oct 3, 2019
 > sequence it will match (5 pts)
 
 This matches the start of a line (^), followed by AUG, followed by
-30-1000 of any of the characters AUGC (in any combination), followed
-by 5-10 A's, followed by the end of the line ($).
+30-1000 of any combination of the characters AUGC, followed by 5-10
+A's, followed by the end of the line ($).
 
 > Given an example of a pattern it will match (5 pts)
 
