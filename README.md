@@ -31,6 +31,12 @@ Homework 3:
     homework/ex7.2.pl
     homework/ex7.3.pl
 
+Homework 4:
+
+    homework/ex10.3.pl
+    homework/ex10.6.pl
+
+
 ## Labs
 
 Lab 1:
@@ -46,6 +52,7 @@ Just run the test scripts.
 $ tests/test-hw1.sh
 $ tests/test-hw2.sh
 $ tests/test-hw3.sh
+$ tests/test-hw4.sh
 ```
 
 The test scripts also provide examples for running each solution.
