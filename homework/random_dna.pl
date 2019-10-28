@@ -24,4 +24,8 @@ sub random_dna {
     return join('', @dna);
 }
 
-print random_dna(10000), "\n";
+my $dna = random_dna(1000000);
+
+for (my $i = 0; $i < length($dna); $i += 79) {
+    print substr($dna, $i, 79), "\n";
+}
