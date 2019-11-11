@@ -24,12 +24,12 @@ my $largest_file;
 # conforms to the "wanted" callback spec expected by File::Find.
 sub largest_and_oldest_files {
     if (-f and (!defined($largest_file) or (-s $largest_file < -s $_))) {
-        print "New largest file: $File::Find::name ", -s $_, "\n";
+        # print "New largest file: $File::Find::name ", -s $_, "\n";
         $largest_file = $File::Find::name;
     }
 
     if (-f and (!defined($oldest_file) or (-M $oldest_file < -M $_))) {
-        print "New oldest file: $File::Find::name ", -M $_, "\n";
+        # print "New oldest file: $File::Find::name ", -M $_, "\n";
         $oldest_file = $File::Find::name;
     }
 
