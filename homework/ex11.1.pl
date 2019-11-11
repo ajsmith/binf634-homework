@@ -4,6 +4,8 @@
 #
 # Find the oldest and largest files in a filesystem tree using
 # File::Find and file test operators.
+#
+# Usage: ex11.1.pl path/to/dir
 
 use strict;
 use warnings;

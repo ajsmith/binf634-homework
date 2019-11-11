@@ -3,6 +3,8 @@
 # Exercise 11.2
 #
 # Find all of the Perl files in a filesystem tree using File::Find.
+#
+# Usage: ex11.2.pl path/to/dir
 
 use strict;
 use warnings;
