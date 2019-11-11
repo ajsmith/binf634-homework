@@ -36,6 +36,11 @@ Homework 4:
     homework/ex10.3.pl
     homework/ex10.6.pl
 
+Homework 5:
+
+    homework/ex11.1.pl
+    homework/ex11.2.pl
+
 
 ## Labs
 
