@@ -48,6 +48,10 @@ Lab 1:
 
     labs/lab1.md
 
+Lab 2:
+
+    labs/lab2.md
+
 
 ## Running the tests
 
