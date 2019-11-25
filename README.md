@@ -41,6 +41,12 @@ Homework 5:
     homework/ex11.1.pl
     homework/ex11.2.pl
 
+Homework 6:
+
+    homework/ex12.4.md
+    homework/ex12.6.py # Using Biopython!
+    homework/ex12.6.pl # Never got Bioperl installed :(
+
 
 ## Labs
 
